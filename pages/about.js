@@ -1,8 +1,8 @@
-import Header from '../components/Header';
+import Header from '../components/Header'
 
 export default function About() {
   return (
-    <div className='mainDiv'>
+    <div className="mainDiv">
       <Header />
       <h1>This is the about page</h1>
       <style jsx>{`
@@ -14,5 +14,5 @@ export default function About() {
         }
       `}</style>
     </div>
-  );
+  )
 }

@@ -1,18 +1,18 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 const linkStyle = {
   marginRight: 15,
-};
+}
 
 const Header = () => (
   <div>
-    <Link href='/'>
+    <Link href="/">
       <a style={linkStyle}>Home</a>
     </Link>
-    <Link href='/about'>
+    <Link href="/about">
       <a style={linkStyle}>about</a>
     </Link>
   </div>
-);
+)
 
-export default Header;
+export default Header
