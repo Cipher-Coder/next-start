@@ -10,6 +10,7 @@ export default function Index() {
         <h3>This is the Home Page</h3>
         <style jsx>{`
           h1 {
+            text-align: center;
             color: red;
             font-size: 3em;
           }

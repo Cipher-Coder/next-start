@@ -9,6 +9,7 @@ export default function About() {
         <h1>This is the about page</h1>
         <style jsx>{`
           h1 {
+            text-align: center;
             font-size: 3em;
           }
           .mainDiv {

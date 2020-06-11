@@ -7,9 +7,10 @@ export default function Contact() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>This is the contact page</h1>
+        <h1>Welcome to the contact page</h1>
         <style jsx>{`
           h1 {
+            text-align: center;
             font-size: 3em;
           }
           .mainDiv {
