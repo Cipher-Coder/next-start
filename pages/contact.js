@@ -18,6 +18,20 @@ export default function Contact() {
           }
         `}</style>
       </div>
+      <div className="hardWork-img">
+        <img src="img/hardWork.jpg" alt="Web Development" />
+        <style jsx>
+          {`
+            .hardWork-img {
+              text-align: center;
+            }
+            img {
+              margin: 5px auto 25px;
+              border-radius: 8px;
+            }
+          `}
+        </style>
+      </div>
       <ContactForm />
       <Footer />
     </div>

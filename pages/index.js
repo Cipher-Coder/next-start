@@ -14,10 +14,27 @@ export default function Index() {
             color: red;
             font-size: 3em;
           }
+          h3 {
+            text-align: center;
+          }
           .mainDiv {
             text-align: center;
           }
         `}</style>
+      </div>
+      <div className="mac-img">
+        <img src="img/macbookPro.jpg" alt="Macbook Pro" />
+        <style jsx>
+          {`
+            .mac-img {
+              text-align: center;
+            }
+            img {
+              margin: 5px auto 25px;
+              border-radius: 8px;
+            }
+          `}
+        </style>
       </div>
       <Footer />
     </div>
