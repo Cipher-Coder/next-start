@@ -7,7 +7,7 @@ export default function About() {
       <div>
         <Header />
         <h1>This is the about page</h1>
-        <h3>This is my about page and where I put info about me!</h3>
+        <h3>This is where I tell about my freelancing self!</h3>
         <style jsx>{`
           h1 {
             text-align: center;

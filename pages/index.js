@@ -6,8 +6,17 @@ export default function Index() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>Hello World from Next.js!!</h1>
-        <h3>This is the Home Page</h3>
+        <h1>Hello World from The Freelancing Web Dev!!</h1>
+        <h3>
+          This is the Home Page for{' '}
+          <a
+            href="https://freelancingweb.dev"
+            rel="nofollow noopener"
+            target="_blank"
+          >
+            freelancingweb.dev
+          </a>
+        </h3>
         <style jsx>{`
           h1 {
             text-align: center;
