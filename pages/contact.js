@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>Get in touch with The Freelancing Web Dev!</h1>
+        <h1>Get in touch with The Freelancing Web Developer!</h1>
         <style jsx>{`
           h1 {
             text-align: center;

@@ -6,7 +6,7 @@ export default function About() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>This is the about page</h1>
+        <h1>What we are about...</h1>
         <h3>This is where I tell about my freelancing self!</h3>
         <style jsx>{`
           h1 {

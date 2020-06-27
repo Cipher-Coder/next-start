@@ -6,7 +6,7 @@ export default function Index() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>Hello World from The Freelancing Web Dev!!</h1>
+        <h1>The Freelancing Web Developer!!</h1>
         <h3>
           This is the Home Page for{' '}
           <a
@@ -20,7 +20,7 @@ export default function Index() {
         <style jsx>{`
           h1 {
             text-align: center;
-            color: red;
+            color: #1a1a1a;
             font-size: 3em;
           }
           h3 {

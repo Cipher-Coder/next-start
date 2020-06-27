@@ -1,7 +1,7 @@
 {
   "name": "next-start",
   "version": "1.0.0",
-  "description": "The beginnings of a Next.js project",
+  "description": "Freelancing Website",
   "main": "index.js",
   "scripts": {
     "dev": "next",
