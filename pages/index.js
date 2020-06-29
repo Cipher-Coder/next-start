@@ -6,7 +6,7 @@ export default function Index() {
     <div className="mainDiv">
       <div>
         <Header />
-        <h1>The Freelancing Web Developer!!</h1>
+        <h1>Welcome. I am Matt. A Freelance Web Developer</h1>
         <h3>
           This is the Home Page for{' '}
           <a
