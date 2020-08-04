@@ -6,6 +6,7 @@ const footerStyles = {
   color: `#e2e2e2`,
   padding: `.9rem`,
   fontSize: `.75rem`,
+  width: `100%`,
 }
 
 const Footer = () => (

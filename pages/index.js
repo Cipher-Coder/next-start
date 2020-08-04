@@ -1,12 +1,17 @@
+import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function Index() {
   return (
     <div className="mainDiv">
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Freelancing Web Developer</title>
+      </Head>
       <div>
         <Header />
-        <h1>Welcome. I am Matt. A Freelance Web Developer</h1>
+        <h1>Welcome. I'm Matt, a Freelance Web Developer</h1>
         <h3>
           This is the Home Page for{' '}
           <a
@@ -41,6 +46,7 @@ export default function Index() {
             img {
               margin: 5px auto 25px;
               border-radius: 8px;
+              max-width: 100%;
             }
           `}
         </style>
