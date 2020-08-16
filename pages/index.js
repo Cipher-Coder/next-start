@@ -11,31 +11,24 @@ export default function Index() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Freelancing Web Developer</title>
       </Head>
+      <Header />
       <Flex flexDirection="column" alignItems="center">
         <div>
-          <Header />
-          <Heading as="h1" size="2xl">
+          <Heading as="h1" size="2xl" color="#1a1a1a" paddingBottom="10px">
             Welcome. I'm Matt, a Freelance Web Developer
           </Heading>
-          <h3>
+          <Heading
+            as="h3"
+            size="lg"
+            color="#1a1a1a"
+            paddingBottom="14px"
+            textAlign="center"
+          >
             This is the Home Page for{' '}
             <NextLink href="/" passHref>
               <Link>freelancingweb.dev</Link>
             </NextLink>
-          </h3>
-          <style jsx>{`
-            h1 {
-              text-align: center;
-              color: #1a1a1a;
-              font-size: 3em;
-            }
-            h3 {
-              text-align: center;
-            }
-            .mainDiv {
-              text-align: center;
-            }
-          `}</style>
+          </Heading>
         </div>
         <div className="mac-img">
           <img src="img/macbookPro.jpg" alt="Macbook Pro" />
