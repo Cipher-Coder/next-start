@@ -15,10 +15,10 @@
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "@sendgrid/mail": "^7.2.4",
+    "@sendgrid/mail": "^7.2.6",
     "dotenv": "^8.2.0",
     "emotion-theming": "^10.0.27",
-    "next": "^9.5.2",
+    "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
