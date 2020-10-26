@@ -1,21 +1,34 @@
-import Link from 'next/link'
+import { Box, Flex, Link, Image, Text } from '@chakra-ui/core'
 
-const linkStyle = {
-  marginRight: 15,
-}
-
-const Header = () => (
-  <div>
-    <Link href="/">
-      <a style={linkStyle}>Home</a>
-    </Link>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
-    </Link>
-    <Link href="/contact">
-      <a style={linkStyle}>Contact</a>
-    </Link>
-  </div>
+const NavLink = ({ children, ...props }) => (
+  <Link px={2} color="white" {...props}>
+    {children}
+  </Link>
 )
+
+function Header() {
+  return (
+    <Flex
+      bg="tomato"
+      w="100%"
+      px={5}
+      py={4}
+      justifyContent="space-between"
+      alignItems="center"
+    >
+      <Flex flexDirection="row" justifyContent="center" alignItems="center">
+        <Image src="img/logo3.png" size={30} />
+        <Text pl={3} color="white">
+          Freelancing Web Developer
+        </Text>
+      </Flex>
+      <Box>
+        <NavLink>Home</NavLink>
+        <NavLink>About</NavLink>
+        <NavLink>Contact</NavLink>
+      </Box>
+    </Flex>
+  )
+}
 
 export default Header
