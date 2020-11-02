@@ -23,9 +23,9 @@ function Header() {
         </Text>
       </Flex>
       <Box>
-        <NavLink>Home</NavLink>
-        <NavLink>About</NavLink>
-        <NavLink>Contact</NavLink>
+        <NavLink href="/">Home</NavLink>
+        <NavLink href="/about">About</NavLink>
+        <NavLink href="/contact">Contact</NavLink>
       </Box>
     </Flex>
   )
