@@ -15,7 +15,7 @@ export default function Index() {
       <Flex flexDirection="column" alignItems="center">
         <div>
           <Heading as="h1" size="2xl" color="#1a1a1a" paddingBottom="10px">
-            Welcome. I'm Matt, a Freelance Web Developer
+            Welcome. Hire a Freelance Web Developer Today!!
           </Heading>
           <Heading
             as="h3"

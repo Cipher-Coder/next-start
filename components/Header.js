@@ -1,31 +1,63 @@
-import { Box, Flex, Link, Image, Text } from '@chakra-ui/core'
+import React from 'react'
+import { Box, Heading, Flex, Image, Link, Text, Button } from '@chakra-ui/core'
 
-const NavLink = ({ children, ...props }) => (
-  <Link px={2} color="white" {...props}>
-    {children}
-  </Link>
+const MenuItems = ({ children, ...props }) => (
+  <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
+    <Link {...props}>{children}</Link>
+  </Text>
 )
 
-function Header() {
+const Header = (props) => {
+  const [show, setShow] = React.useState(false)
+  const handleToggle = () => setShow(!show)
+
   return (
     <Flex
-      bg="tomato"
-      w="100%"
-      px={5}
-      py={4}
-      justifyContent="space-between"
-      alignItems="center"
+      as="nav"
+      align="center"
+      justify="space-between"
+      wrap="wrap"
+      padding="1.5rem"
+      bg="teal.500"
+      color="white"
+      {...props}
     >
-      <Flex flexDirection="row" justifyContent="center" alignItems="center">
-        <Image src="img/logo3.png" size={30} />
-        <Text pl={3} color="white">
-          Freelancing Web Developer
-        </Text>
+      <Flex align="center" mr={5}>
+        <Heading as="h1" size="lg" letterSpacing={'-.1rem'}>
+          Freelancing Web Dev
+        </Heading>
       </Flex>
-      <Box>
-        <NavLink href="/">Home</NavLink>
-        <NavLink href="/about">About</NavLink>
-        <NavLink href="/contact">Contact</NavLink>
+
+      <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
+        <svg
+          fill="white"
+          width="12px"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </Box>
+
+      <Box
+        display={{ sm: show ? 'block' : 'none', md: 'flex' }}
+        width={{ sm: 'full', md: 'auto' }}
+        alignItems="center"
+        flexGrow={1}
+      >
+        <MenuItems href="/">Home</MenuItems>
+        <MenuItems href="/about">About</MenuItems>
+        <MenuItems href="/contact">Contact</MenuItems>
+      </Box>
+
+      <Box
+        display={{ sm: show ? 'block' : 'none', md: 'block' }}
+        mt={{ base: 4, md: 0 }}
+      >
+        <Button bg="transparent" border="1px">
+          Create account
+        </Button>
       </Box>
     </Flex>
   )

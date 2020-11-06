@@ -1,6 +1,5 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Calendar from '../components/Calendar'
 
 export default function About() {
   return (
@@ -35,9 +34,6 @@ export default function About() {
             }
           `}
         </style>
-      </div>
-      <div className="my-calendar" style={{ marginBottom: 35 }}>
-        <Calendar />
       </div>
       <Footer />
     </div>
