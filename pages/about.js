@@ -1,11 +1,11 @@
-import Header from '../components/Header'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export default function About() {
   return (
     <div className="mainDiv">
       <div>
-        <Header />
+        <Navbar />
         <h1>What we are about...</h1>
         <h3>This is where I tell about my freelancing self!</h3>
         <style jsx>{`
