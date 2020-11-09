@@ -49,7 +49,7 @@ export default function Hero({
         </Heading>
         <Link href={ctaLink}>
           <Button
-            variantColor="teal"
+            variantColor="orange"
             borderRadius="8px"
             py="4"
             px="4"
@@ -71,7 +71,7 @@ export default function Hero({
         </Text>
       </Stack>
       <Box w={{ base: '80%', sm: '60%', md: '50%' }} mb={{ base: 12, md: 0 }}>
-        <Image src={image} size="100%" rounded="1rem" shadow="2xl" />
+        <Image src={image} size="100%" />
       </Box>
     </Flex>
   )
@@ -88,8 +88,8 @@ Hero.propTypes = {
 Hero.defaultProps = {
   title: 'Hire a Freelance Web Developer Today!',
   subtitle:
-    'This is the subheader section where you describe the basic benefits of your product',
-  image: 'img/macbookPro.jpg',
-  ctaText: 'Create your account now',
-  ctaLink: '/signup',
+    'Talk to a Freelance Developer today! Build your project one-on-one or add a developer to your team to fill in the gaps.',
+  image: 'img/singleDev.png',
+  ctaText: 'Get in touch',
+  ctaLink: '/contact',
 }
