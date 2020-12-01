@@ -1,7 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import PropTypes from 'prop-types'
-import { Box, Button, Flex, Image, Heading, Stack, Text } from '@chakra-ui/core'
+import {
+  Box,
+  Button,
+  Flex,
+  Image,
+  Heading,
+  Stack,
+  Text,
+} from '@chakra-ui/react'
 
 export default function Hero({
   title,
@@ -49,13 +57,12 @@ export default function Hero({
         </Heading>
         <Link href={ctaLink}>
           <Button
-            variantColor="orange"
+            colorScheme="orange"
             borderRadius="8px"
             py="4"
             px="4"
             lineHeight="1"
             size="md"
-            rightIcon="chevron-right"
           >
             {ctaText}
           </Button>
