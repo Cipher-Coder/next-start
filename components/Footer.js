@@ -11,9 +11,9 @@ const footerStyles = {
 
 const Footer = () => (
   <footer style={footerStyles}>
-    © {new Date().getFullYear()}, Built with{' '}
-    <a href="https://nextjs.org">NextJS</a>, By:{' '}
-    <a href="https://mattaz.com">Mattaz Web Design</a>
+    © {new Date().getFullYear()}{' '}
+    <a href="https://mattaz.com">Mattaz Web Design</a>, Built with{' '}
+    <a href="https://nextjs.org">NextJS</a>
   </footer>
 )
 

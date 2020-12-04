@@ -47,7 +47,7 @@
 }
 .links a:hover {
   background: hsl(210, 31%, 80%);
-  color: hsl(41, 100%, 50%);
+  color: rgb(0, 137, 237);
   padding-left: 1.5rem;
 }
 .socialicons {
