@@ -93,9 +93,9 @@ Hero.propTypes = {
 }
 
 Hero.defaultProps = {
-  title: 'Hire a Freelance Web Developer Today!',
+  title: 'Hire Your Freelance Web Developer Today!',
   subtitle:
-    'Talk to a Freelance Developer today! Build your project one-on-one or add a developer to your team to fill in the gaps.',
+    'Talk to a Freelance Developer! Build your project one-on-one, or add a developer to your team to fill in the gaps.',
   image: 'img/singleDev.png',
   ctaText: 'Get in touch',
   ctaLink: '/contact',
