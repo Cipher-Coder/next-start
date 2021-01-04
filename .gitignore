@@ -8,6 +8,7 @@
 .history/*
 .idea
 .vs
+*.code-workspace
 *.suo
 *.ntvs*
 *.njsproj
