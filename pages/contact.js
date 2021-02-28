@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Heading from '../components/Heading'
 import Footer from '../components/Footer'
 import ContactForm from '../components/ContactForm'
 
@@ -7,13 +8,9 @@ export default function Contact() {
     <div className="mainDiv">
       <div>
         <Navbar />
-        <h1>Get in touch with Matt a freelance web developer!</h1>
-        <style jsx>{`
-          h1 {
-            text-align: center;
-            font-size: 3em;
-          }
-        `}</style>
+      </div>
+      <div className="contact_heading">
+        <Heading textContent="Get in touch with a Freelance Web Developer Today!!" />
       </div>
       <div className="hardWork-img">
         <img src="img/hardWork.jpg" alt="Web Development" />
