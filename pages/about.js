@@ -7,7 +7,9 @@ export default function About() {
       <div>
         <Navbar />
         <h1>What we are about...</h1>
-        <h3>This is where I tell about my freelancing self!</h3>
+        <h3>
+          This is where I tell about where and how all this was put together.
+        </h3>
         <style jsx>{`
           h1 {
             text-align: center;
