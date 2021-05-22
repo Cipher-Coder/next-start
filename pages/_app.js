@@ -1,4 +1,4 @@
-import { theme, ThemeProvider, CSSReset } from '@chakra-ui/react'
+import { theme, ChakraProvider, CSSReset } from '@chakra-ui/react'
 
 const breakpoints = ['360px', '768px', '1024px', '1440px']
 breakpoints.sm = breakpoints[0]
@@ -13,9 +13,9 @@ const newTheme = {
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={newTheme}>
+    <ChakraProvider theme={newTheme}>
       <CSSReset />
       <Component {...pageProps} />
-    </ThemeProvider>
+    </ChakraProvider>
   )
 }
