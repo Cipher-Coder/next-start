@@ -93,9 +93,9 @@ Hero.propTypes = {
 }
 
 Hero.defaultProps = {
-  title: 'The Best Freelancing Developer Tools!',
+  title: 'Hire a Freelance Web Developer today!! ',
   subtitle:
-    'Check out all of the tools and sites we have found to help Freelance Developers run their business.',
+    'You have come to the right place to hire contract Web Developers. Check out some profiles and let us know who looks like they will work with your project.',
   image: 'img/singleDev.png',
   ctaText: 'Get in touch',
   ctaLink: '/contact',

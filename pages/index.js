@@ -8,7 +8,7 @@ export default function Index() {
     <div className="mainDiv">
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Freelancing Web Developer Tools</title>
+        <title>Contract a Freelance Web Developer today!!</title>
       </Head>
       <Navbar />
       <Hero />

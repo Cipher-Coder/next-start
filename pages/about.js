@@ -8,7 +8,8 @@ export default function About() {
         <Navbar />
         <h1>What we are about...</h1>
         <h3>
-          This is where I tell about where and how all this was put together.
+          Contract Developers for projects that don't require hiring a full-time
+          employee.
         </h3>
         <style jsx>{`
           h1 {
