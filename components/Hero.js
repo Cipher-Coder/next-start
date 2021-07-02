@@ -23,16 +23,17 @@ export default function Hero({
     <Flex
       align="center"
       justify={{ base: 'center', md: 'space-around', xl: 'space-between' }}
-      direction={{ base: 'column-reverse', md: 'row' }}
+      direction={{ base: 'column', md: 'row' }}
       wrap="no-wrap"
       minH="70vh"
       px={8}
       mb={16}
+      mt={10}
       {...rest}
     >
       <Stack
         spacing={4}
-        w={{ base: '80%', md: '40%' }}
+        w={{ base: '60%', md: '40%' }}
         align={['center', 'center', 'flex-start', 'flex-start']}
       >
         <Heading
@@ -74,7 +75,7 @@ export default function Hero({
           color="primary.800"
           opacity="0.6"
         >
-          No credit card required.
+          No strings attached.
         </Text>
       </Stack>
       <Box w={{ base: '80%', sm: '60%', md: '50%' }} mb={{ base: 12, md: 0 }}>
@@ -93,9 +94,9 @@ Hero.propTypes = {
 }
 
 Hero.defaultProps = {
-  title: 'Hire a Freelance Web Developer today!! ',
+  title: 'Unedited Web Design & Development',
   subtitle:
-    'You have come to the right place to hire contract Web Developers. Check out some profiles and let us know who looks like they will work with your project.',
+    'Unedited Web Design will get you up and running with a custom website faster and cheaper than the rest! Call for a consultation!',
   image: 'img/singleDev.png',
   ctaText: 'Get in touch',
   ctaLink: '/contact',
