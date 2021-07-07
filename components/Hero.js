@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import PropTypes from 'prop-types'
+import { Typewriter } from 'react-simple-typewriter'
 import {
   Box,
   Button,
@@ -33,7 +34,7 @@ export default function Hero({
     >
       <Stack
         spacing={4}
-        w={{ base: '60%', md: '40%' }}
+        w={{ base: '50%', md: '40%' }}
         align={['center', 'center', 'flex-start', 'flex-start']}
       >
         <Heading
@@ -43,7 +44,20 @@ export default function Hero({
           color="primary.800"
           textAlign={['center', 'center', 'left', 'left']}
         >
-          {title}
+          {' '}
+          {title}:{' '}
+          <span style={{ color: 'red', fontWeight: 'bold' }}>
+            <Typewriter
+              words={['Professional', 'Affordable', 'Fast']}
+              loop={5}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              onLoopDone={() => console.log(`Done after 5 loops!`)}
+            />
+          </span>
         </Heading>
         <Heading
           as="h2"
