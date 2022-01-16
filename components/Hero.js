@@ -110,7 +110,7 @@ Hero.propTypes = {
 Hero.defaultProps = {
   title: 'Unedited Web Design & Development',
   subtitle:
-    'Unedited Web Design will get you up and running with a custom website faster and cheaper than the rest! Call for a consultation!',
+    'Are you looking to create or enhance your online presence? Unedited Web Design will get you up and running with a custom website faster and cheaper than the rest! Call for a consultation!',
   image: 'img/singleDev.png',
   ctaText: 'Get in touch',
   ctaLink: '/contact',
