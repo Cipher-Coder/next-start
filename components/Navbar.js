@@ -22,7 +22,12 @@ const Navbar = () => {
     <nav className={styles.navcontainer}>
       <div className={styles.navcenter}>
         <div className={styles.navheader}>
-          <img src="img/logo5.png" className={styles.logo} alt="logo" />
+          <img
+            src="img/unedited_logo_only.png"
+            className={styles.logo}
+            alt="logo"
+          />
+          <span className={styles.logowriting}>Unedited Web Technologies</span>
           <button className={styles.navtoggle} onClick={toggleLinks}>
             <FaBars />
           </button>

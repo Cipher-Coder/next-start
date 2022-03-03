@@ -36,6 +36,11 @@
 .logo {
   height: 40px;
 }
+
+.logowriting {
+  margin-left: 0.5rem;
+}
+
 .links a {
   color: hsl(209, 34%, 30%);
   font-size: 1rem;

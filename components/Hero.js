@@ -47,8 +47,9 @@ export default function Hero({
           {' '}
           {title}:{' '}
           <span style={{ color: 'red', fontWeight: 'bold' }}>
+            We Are:{' '}
             <Typewriter
-              words={['Professional', 'Affordable', 'Fast']}
+              words={['Fast', 'Professional', 'Affordable']}
               loop={5}
               cursor
               cursorStyle="_"
